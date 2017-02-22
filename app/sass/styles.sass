@@ -1,0 +1,90 @@
+@import "loader"
+@import "tooltip"
+html
+  overflow-y: hidden
+//chrome scroll
+::-webkit-scrollbar
+  background: transparent
+  transition: all 5s ease forwards
+  &:hover
+    background: rgba(211,211,211, 0.8)
+body
+  font-family: 'Nunito', sans-serif
+  font-weight: 100
+  //removes annoying white space..
+  padding: 1px
+  margin: 0
+  letter-spacing: .2vmin
+  text-transform: uppercase
+  font-size: 87.5%
+
+.grid
+  margin-top: 2vmin
+  width: 100%
+  //so it doesnt get all squished an unviewable
+  min-width: 800px
+.grid-item
+  display: inline-block
+  width: 25%
+  border: solid white .5vmin
+  //so borders and padding dont affect my boxes sizes
+  box-sizing: border-box
+  height: 400px
+  img
+    height: 100%
+    width: 100%
+    object-fit: contain
+    &:hover
+      filter: brightness(120%)
+      cursor: pointer
+
+
+//container
+.flex-container
+  display: flex
+  margin: 8vmin
+  margin-top: 2vmin
+  flex-direction: column
+  align-items: center
+  min-width: 800px
+
+.description-container
+  width: 100%
+  text-align: center
+  border-top: solid .25vmin
+  border-bottom: solid .25vmin
+  text-align: right
+
+  h1
+    display: inline-block
+    float: left
+    margin: 2vmin
+    font-weight: normal
+    font-size: 100%
+    cursor: pointer
+
+
+//navigation list
+.nav
+  padding: 0
+  margin: 0
+  ul
+    float: right
+  li
+    list-style-type: none
+    margin: 2vmin
+    padding: 0
+    display: inline-block
+    cursor: pointer
+//fancy box
+.fancybox-lock
+  overflow: hidden !important
+  padding-right: 17px
+
+
+.fancybox-lock body
+  overflow: hidden !important
+
+
+
+@import "media"
