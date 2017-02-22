@@ -3,8 +3,9 @@
 $(document).ready(function(){
 // loader did it this way because not enough content.
   setTimeout(function(){
-    $('.loader').fadeOut();
+    $('#wrapper').fadeOut();
     $('html').css("overflow-y", "auto");
+    $(".flex-container").css("display", "flex")
   }, 4000);
 
 //Filter Flowers
@@ -75,7 +76,7 @@ $(this).fancybox({
 
 
             }
-            
+
         }
     }
 
