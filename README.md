@@ -23,5 +23,5 @@ Gulp, Sass, Pug, jQuery, Javascript, Google Dev Tools
 
 **Motivation**
 
-Will be transfered over to a friend who is a photographer.
+Will be transfered over to a friend who is a photographer!
 >>>>>>> master
