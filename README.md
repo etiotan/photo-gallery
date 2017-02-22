@@ -2,7 +2,7 @@
 
 **Synopsis**
 
-A responsive image gallery, tested for the most popular phones oniOS & Android. Works best on Chrome.
+A responsive image gallery, tested for the most popular phones on iOS & Android. Works best on Chrome.
 
 **Tools**
 
