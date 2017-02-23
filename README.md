@@ -11,4 +11,5 @@ Gulp, Sass, Pug, jQuery, Javascript, Google Dev Tools
 **Motivation**
 
 Will be transfered over to a friend who is a photographer!
->>>>>>> master
+
+**https://etiotan.github.io/portfolio/app**
