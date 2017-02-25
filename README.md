@@ -14,7 +14,7 @@ At first I wanted the horizontal disabled for aesthetic purposes but I realized 
 
 **Tools**
 
-Gulp, Sass, Pug, jQuery, Javascript, & a few Javascript libraries.
+Gulp, Sass, Pug, jQuery, Javascript, Flex-Box & a few Javascript libraries.
 
 **Motivation**
 
