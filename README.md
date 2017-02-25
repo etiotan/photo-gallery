@@ -12,6 +12,8 @@ One of the biggest challenges was to make the images not squished when sizes cha
 
 At first I wanted the horizontal disabled for aesthetic purposes but I realized that would not be possible. I had to settle by enable the horizontal scroll. My graphic design friend picked apart my entire project telling me everything that was wrong with it which was key to making it look like it does now.
 
+object-fit: contain & flex-box solved many of the problems I occured in making the images look neat & maintain aspect ratios.
+
 **Tools**
 
 Gulp, Sass, Pug, jQuery, Javascript, Flex-Box & a few Javascript libraries.
