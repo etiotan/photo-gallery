@@ -22,7 +22,7 @@ Gulp, Sass, Pug, jQuery, Javascript, Flex-Box & a few Javascript libraries.
 
 Will be transfered over to a friend who is a photographer!
 
-**https://etiotan.github.io/portfolio/app**
+**https://etiotan.github.io/photo-gallery/app/**
 
 **Was transfered from another one of my repo's so naturally there should be more commits**
 
